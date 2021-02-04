@@ -502,7 +502,7 @@ installPython3(){
         # wget -O ${configPythonDownloadPath}/torchvision-0.8.2+cpu-cp38-cp38-linux_x86_64.whl https://download.pytorch.org/whl/cpu/torchvision-0.8.2%2Bcpu-cp38-cp38-linux_x86_64.whl
 
         wget -O ${configPythonDownloadPath}/torch-1.7.1+cpu-cp38-cp38-linux_x86_64.whl https://rt1.jinss2.cf/torch-1.7.1%2Bcpu-cp38-cp38-linux_x86_64.whl
-        wget -O ${configPythonDownloadPath}/torchvision-0.8.2+cpu-cp38-cp38-linux_x86_64.whl https://rt1.jinss2.cf/torchvision-0.8.2%2Bcpu-cp38-cp38-win_amd64.whl
+        wget -O ${configPythonDownloadPath}/torchvision-0.8.2+cpu-cp38-cp38-linux_x86_64.whl https://rt1.jinss2.cf/torchvision-0.8.2%2Bcpu-cp38-cp38-linux_x86_64.whl
         pip install ${configPythonDownloadPath}/torch-1.7.1+cpu-cp38-cp38-linux_x86_64.whl 
         pip install ${configPythonDownloadPath}/torchvision-0.8.2+cpu-cp38-cp38-linux_x86_64.whl
 
