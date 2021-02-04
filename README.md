@@ -193,3 +193,24 @@ Licensed under [MIT License](./LICENSE.txt)
 Liked some of my work? Buy me a coffee (or more likely a beer)
 
 <a href="https://www.buymeacoffee.com/danielgatis" target="_blank"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;"></a>
+
+
+
+
+
+
+## 安装其他 Linux 软件
+
+#### via curl 安装命令 
+
+```bash
+curl -O https://raw.githubusercontent.com/jinwyp/rembg/master/linux_install_software.sh && chmod +x ./linux_install_software.sh && ./linux_install_software.sh
+
+```
+
+#### via wget 安装命令 
+
+```bash
+wget --no-check-certificate https://raw.githubusercontent.com/jinwyp/rembg/master/linux_install_software.sh && chmod +x ./linux_install_software.sh && ./linux_install_software.sh
+
+```
