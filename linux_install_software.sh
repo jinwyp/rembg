@@ -549,10 +549,12 @@ installPython3Rembg(){
     green "    命令行运行  rembg -o output1.jpg test1.jpg"
     green "    参数 -p 指定源文件目录, 批量转换该目录下的所有文件"
     green "    参数 -m u2net 指定模型 共2种 u2net 或 u2netp 默认为 u2net"
-    green "    参数 -a 是否使用 alpha matting cutout 一种遮罩 例如 rembg -a -ae 15 > output.png"
+    green "    参数 -a 是否使用 alpha matting cutout 例如 rembg -a -ae 15 > output.png"
     green "    参数 -ae 默认10  erosion 图片侵蚀程度"
     green "    参数 -af 默认240 foreground-threshold 图片前景阈值"
     green "    参数 -ab 默认10 background-threshold 图片背景阈值"
+    green "    参数 -az 默认1000 The image base size 图片基础大小"
+    
     echo "   "
     green "    运行网站API服务命令 rembg-server 请开启5000端口防火墙, 或用nginx反向代理5000端口"
     green "    后台运行网站API服务命令 nohup rembg-server > /root/rembg.log 2>&1 &"

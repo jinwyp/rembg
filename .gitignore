@@ -1,6 +1,7 @@
 # general things to ignore
 build/
 dist/
+img/
 u2net/
 *.egg-info/
 *.egg
